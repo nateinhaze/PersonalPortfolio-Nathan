@@ -1,0 +1,57 @@
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    background-color: darkolivegreen;
+    width: 100%;
+    box-shadow: 5px wheat 
+    
+}
+#navlist {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+    width: 300px;
+    color: wheat;
+  
+    
+}
+.navlist{
+    display: block;
+    padding: 10px;
+    
+}
+
+
+li {
+    list-style: none;
+}
+body{
+    margin: 0%;
+}
+.navlist a:hover {
+    background: whitesmoke}
+
+    a {
+    text-decoration: none;
+    color: wheat;
+    }
+#welcome-section{
+    height: 100vh;
+    width: 100%;
+    background-color: dimgray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
